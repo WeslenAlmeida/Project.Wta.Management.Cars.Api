@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Project.Wta.Management.Cars.Api.props" />
+</Project>
