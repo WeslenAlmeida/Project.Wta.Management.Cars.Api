@@ -10,18 +10,24 @@ namespace Project.Wta.Management.Cars.Application.Infraestructure
     {
         public Bootstrapper(IServiceCollection services)
         {
-            InjectMediator(services);
             InjectScoped(services);
+            InjectMediator(services);
+            InjectAutoMapper(services);
         }
 
         private static void InjectScoped(IServiceCollection services)
         {
-            services.AddScoped<ICarRepository, CarRepository>();    
+            services.AddScoped(typeof(ICarRepository), typeof(CarRepository));    
         }
 
         private static void InjectMediator(IServiceCollection services)
         {
             services.AddMediatR(typeof(CreateCarCommand).GetTypeInfo().Assembly);
+        }
+
+        private static void InjectAutoMapper(IServiceCollection services)
+        {
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
         }
     }
 }

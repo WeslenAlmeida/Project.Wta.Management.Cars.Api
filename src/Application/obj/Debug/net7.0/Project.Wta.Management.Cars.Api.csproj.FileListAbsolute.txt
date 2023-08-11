@@ -5,13 +5,14 @@
 /home/workspace/Project.Wta.Management.Cars.Api/src/1-Application/obj/Debug/net7.0/Project.Wta.Management.Cars.Api.csproj.CoreCompileInputs.cache
 /home/workspace/Project.Wta.Management.Cars.Api/src/1-Application/obj/Debug/net7.0/Project.Wta.Management.Cars.Api.MvcApplicationPartsAssemblyInfo.cs
 /home/workspace/Project.Wta.Management.Cars.Api/src/1-Application/obj/Debug/net7.0/Project.Wta.Management.Cars.Api.MvcApplicationPartsAssemblyInfo.cache
-/home/workspace/Project.Wta.Management.Cars.Api/src/Application/bin/Debug/net7.0/appsettings.Development.json
 /home/workspace/Project.Wta.Management.Cars.Api/src/Application/bin/Debug/net7.0/appsettings.json
 /home/workspace/Project.Wta.Management.Cars.Api/src/Application/bin/Debug/net7.0/Project.Wta.Management.Cars.Api
 /home/workspace/Project.Wta.Management.Cars.Api/src/Application/bin/Debug/net7.0/Project.Wta.Management.Cars.Api.deps.json
 /home/workspace/Project.Wta.Management.Cars.Api/src/Application/bin/Debug/net7.0/Project.Wta.Management.Cars.Api.runtimeconfig.json
 /home/workspace/Project.Wta.Management.Cars.Api/src/Application/bin/Debug/net7.0/Project.Wta.Management.Cars.Api.dll
 /home/workspace/Project.Wta.Management.Cars.Api/src/Application/bin/Debug/net7.0/Project.Wta.Management.Cars.Api.pdb
+/home/workspace/Project.Wta.Management.Cars.Api/src/Application/bin/Debug/net7.0/AutoMapper.dll
+/home/workspace/Project.Wta.Management.Cars.Api/src/Application/bin/Debug/net7.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 /home/workspace/Project.Wta.Management.Cars.Api/src/Application/bin/Debug/net7.0/AWSSDK.Core.dll
 /home/workspace/Project.Wta.Management.Cars.Api/src/Application/bin/Debug/net7.0/AWSSDK.SecurityToken.dll
 /home/workspace/Project.Wta.Management.Cars.Api/src/Application/bin/Debug/net7.0/DnsClient.dll
