@@ -22,7 +22,7 @@ namespace Project.Wta.Management.Cars.Application.Infraestructure
 
         private static void InjectMediator(IServiceCollection services)
         {
-            services.AddMediatR(typeof(CreateCarCommand).GetTypeInfo().Assembly);
+            services.AddMediatR(AppDomain.CurrentDomain.GetAssemblies());
         }
 
         private static void InjectAutoMapper(IServiceCollection services)
