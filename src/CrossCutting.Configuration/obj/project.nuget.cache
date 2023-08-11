@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8KZmUYNkm1+sZCmv7NAmAivrci2fMeA7votSUYOCq3DFWOzzOfd+WNK6NWjciLIMZlwMH6Eg+pox6Xtt83yWCA==",
+  "dgSpecHash": "Tg/ZRjFWAMQFRrBYjgNdXMprL5h+yMfvbqtDb4xXrapIy7KyA0JTghMifKIpf9k9DYCYJ6ZnQxOwBwFMBnGjMA==",
   "success": true,
   "projectFilePath": "/home/workspace/Project.Wta.Management.Cars.Api/src/CrossCutting.Configuration/Project.Wta.Management.Cars.CrossCutting.Configuration.csproj",
   "expectedPackageFiles": [
