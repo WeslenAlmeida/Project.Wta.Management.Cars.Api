@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "NbIwAbatTLo/C3l2Srt2NU+0wbcNX7n1HXh1JKFKZBAbu3+K98ZSuROPF8jLIfN7kVf5ocAiWhvH5QtnS0m7cw==",
+  "dgSpecHash": "B39oXZMPVJRfhSPP6xddXhAsr8nt+benKyGOeg8uBuA7Ko/sFJqNz5gRxV9Hd/J1bBXBMw6/U6gZBQqGlhRDDw==",
   "success": true,
   "projectFilePath": "/home/workspace/Project.Wta.Management.Cars.Api/src/Domain/Project.Wta.Management.Cars.Domain.csproj",
   "expectedPackageFiles": [
+    "/home/weslen/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/home/weslen/.nuget/packages/mediatr/11.1.0/mediatr.11.1.0.nupkg.sha512",
     "/home/weslen/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
+    "/home/weslen/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/home/weslen/.nuget/packages/microsoft.extensions.configuration/7.0.0/microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "/home/weslen/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "/home/weslen/.nuget/packages/microsoft.extensions.configuration.environmentvariables/7.0.0/microsoft.extensions.configuration.environmentvariables.7.0.0.nupkg.sha512",

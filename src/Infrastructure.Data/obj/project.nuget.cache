@@ -1,14 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "uygG1HojVhrvZP8YgyGITKk1B9E+6tnM1c7xSkGSrYi3+n7gD8A5hqkAAKcckZbPv/urScJ+YLkx6TGxCjmyMg==",
+  "dgSpecHash": "A9I3YjX+hb8PdZlDEqy+HabW+42iiwwVnRBlWgFppY3QmAauKLF4XXBPgGQhEInPPl6x9ARwVLIW8+oSG/Ie3A==",
   "success": true,
   "projectFilePath": "/home/workspace/Project.Wta.Management.Cars.Api/src/Infrastructure.Data/Project.Wta.Management.Cars.Infrastucture.Data.csproj",
   "expectedPackageFiles": [
+    "/home/weslen/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/home/weslen/.nuget/packages/awssdk.core/3.7.100.14/awssdk.core.3.7.100.14.nupkg.sha512",
     "/home/weslen/.nuget/packages/awssdk.securitytoken/3.7.100.14/awssdk.securitytoken.3.7.100.14.nupkg.sha512",
     "/home/weslen/.nuget/packages/dnsclient/1.6.1/dnsclient.1.6.1.nupkg.sha512",
     "/home/weslen/.nuget/packages/mediatr/11.1.0/mediatr.11.1.0.nupkg.sha512",
     "/home/weslen/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
+    "/home/weslen/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/home/weslen/.nuget/packages/microsoft.extensions.configuration/7.0.0/microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "/home/weslen/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "/home/weslen/.nuget/packages/microsoft.extensions.configuration.environmentvariables/7.0.0/microsoft.extensions.configuration.environmentvariables.7.0.0.nupkg.sha512",

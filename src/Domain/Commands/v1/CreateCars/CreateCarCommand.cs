@@ -8,5 +8,6 @@ namespace Project.Wta.Management.Cars.Domain.Commands.v1.CreateCars
         public string? Manufacturer  { get; set; }
         public int Km { get; set; }
         public string? LisensePlate { get; set; }
+        public Guid PersonId { get; set; }
     }
 }

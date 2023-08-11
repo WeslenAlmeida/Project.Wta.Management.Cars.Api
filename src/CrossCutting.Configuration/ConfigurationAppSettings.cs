@@ -7,8 +7,8 @@ namespace Project.Wta.Management.Cars.CrossCutting.Configuration
         internal static IConfigurationRoot Builder()
         {
             var builder = new ConfigurationBuilder()
-                .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+                .SetBasePath(Directory.GetCurrentDirectory() + "/src/Application/")
+                .AddJsonFile($"appsettings.json", optional: false, reloadOnChange: true)
                 .AddEnvironmentVariables();
 
                 return builder.Build();
