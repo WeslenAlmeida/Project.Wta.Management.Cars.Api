@@ -6,6 +6,6 @@ namespace Project.Wta.Management.Cars.Domain.Interface.v1.Repositories
     {
         Task InsertCar(CarEntity car);
         Task<IEnumerable<CarEntity>> GetCarByPersonId(Guid personId);
-        Task<IEnumerable<CarEntity>> GetCarByLisensePlate(string lisensePlate);
+        Task<CarEntity> GetCarByLisensePlate(string lisensePlate);
     }
 }

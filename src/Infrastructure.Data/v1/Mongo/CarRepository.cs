@@ -1,3 +1,4 @@
+using System.Linq;
 using MongoDB.Driver;
 using Project.Wta.Management.Cars.CrossCutting.Configuration;
 using Project.Wta.Management.Cars.Domain.Entities.v1;
@@ -16,13 +17,18 @@ namespace Project.Wta.Management.Cars.Infrastructure.Data.v1.Mongo
             _carCollection = mongoDatabase.GetCollection<CarEntity>("cars");
         }
 
-        public async Task<IEnumerable<CarEntity>> GetCarByLisensePlate(string lisensePlate) =>
-            await _carCollection.Find(x => x.LisensePlate == lisensePlate).ToListAsync();
-      
+        public async Task<CarEntity> GetCarByLisensePlate(string lisensePlate)
+        {
+            var response = await _carCollection.FindAsync(x => x.LisensePlate == lisensePlate);
+            return response.FirstOrDefault();   
+        }
 
-        public async Task<IEnumerable<CarEntity>> GetCarByPersonId(Guid personId) =>
-            await _carCollection.Find(x => x.PersonId == personId).ToListAsync();
-
+        public async Task<IEnumerable<CarEntity>> GetCarByPersonId(Guid personId)
+        {
+            var response = await _carCollection.FindAsync(x => x.PersonId == personId);
+            return response.ToEnumerable();  
+        }
+        
         public async Task InsertCar(CarEntity car) =>
             await _carCollection.InsertOneAsync(car);
     }

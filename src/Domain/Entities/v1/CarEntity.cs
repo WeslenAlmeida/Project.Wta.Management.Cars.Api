@@ -8,7 +8,7 @@ namespace Project.Wta.Management.Cars.Domain.Entities.v1
         public Guid Id { get; set; }
 
          [BsonElement("createAt")]
-        public DateTime CreateAt { get; set; } = DateTime.Now; 
+        public DateTime CreateAt { get; set; } 
 
          [BsonElement("model")] 
         public string? Model { get; set; }
