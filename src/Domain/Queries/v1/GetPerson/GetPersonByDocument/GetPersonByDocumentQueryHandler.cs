@@ -24,7 +24,7 @@ namespace Domain.Queries.v1.GetPerson.GetPersonByDocument
 
             var cars = await _carRepository.GetCarByPersonDocument(person.Document!);
 
-            return new GetPersonByDocumentQueryResponse(person.Id, person.Name, person.Document, person.Phone,
+            return new GetPersonByDocumentQueryResponse(person.Name, person.Document, person.Phone,
                                                          _mapper.Map<IEnumerable<GetCarByLicensePlateQueryResponse>>(cars));
         }
     }
