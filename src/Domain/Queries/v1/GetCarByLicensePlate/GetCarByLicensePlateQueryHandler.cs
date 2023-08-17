@@ -4,7 +4,7 @@ using Project.Wta.Management.Cars.Domain.Interface.v1.Repositories;
 
 namespace Project.Wta.Management.Cars.Domain.Queries.v1.GetCarByLicensePlate
 {
-    public class GetCarByLicensePlateQueryHandler: IRequestHandler<GetCarByLicensePlateQuery, GetCarByLicensePlateQueryResponse>
+    public class GetCarByLicensePlateQueryHandler : IRequestHandler<GetCarByLicensePlateQuery, GetCarByLicensePlateQueryResponse>
     {
         private readonly ICarRepository _carRepository;
         private readonly IMapper _mapper;

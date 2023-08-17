@@ -1,4 +1,6 @@
 using System.Reflection;
+using Domain.Interface.v1.Repositories;
+using Infrastructure.Data.v1.Mongo;
 using MediatR;
 using Project.Wta.Management.Cars.Domain.Commands.v1.CreateCars;
 using Project.Wta.Management.Cars.Domain.Interface.v1.Repositories;
@@ -17,7 +19,8 @@ namespace Project.Wta.Management.Cars.Application.Infraestructure
 
         private static void InjectScoped(IServiceCollection services)
         {
-            services.AddScoped(typeof(ICarRepository), typeof(CarRepository));    
+            services.AddScoped(typeof(ICarRepository), typeof(CarRepository)); 
+            services.AddScoped(typeof(IPersonRepository), typeof(PersonRepository));     
         }
 
         private static void InjectMediator(IServiceCollection services)

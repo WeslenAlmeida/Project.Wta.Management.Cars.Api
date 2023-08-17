@@ -15,7 +15,7 @@ namespace Domain.Commands.v1.CreateCars
                 .ForMember(dest => dest.Km, opt => opt.MapFrom(src => src.Km))
                 .ForMember(dest => dest.LisensePlate, opt => opt.MapFrom(src => src.LisensePlate))
                 .ForMember(dest => dest.Manufacturer, opt => opt.MapFrom(src => src.Manufacturer))
-                .ForMember(dest => dest.PersonId, opt => opt.MapFrom(src => src.PersonId));
+                .ForMember(dest => dest.PersonDocument, opt => opt.MapFrom(src => src.PersonDocument));
         }
     }
 }

@@ -22,7 +22,7 @@ namespace Project.Wta.Management.Cars.Domain.Entities.v1
          [BsonElement("lisensePlate")]
         public string? LisensePlate { get; set; }
 
-        [BsonElement("personId")]
-        public Guid PersonId { get; set; }
+        [BsonElement("personDocument")]
+        public string? PersonDocument { get; set; }
     }
 }

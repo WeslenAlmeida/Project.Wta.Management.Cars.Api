@@ -23,9 +23,9 @@ namespace Project.Wta.Management.Cars.Infrastructure.Data.v1.Mongo
             return response.FirstOrDefault();   
         }
 
-        public async Task<IEnumerable<CarEntity>> GetCarByPersonId(Guid personId)
+        public async Task<IEnumerable<CarEntity>> GetCarByPersonDocument(string document)
         {
-            var response = await _carCollection.FindAsync(x => x.PersonId == personId);
+            var response = await _carCollection.FindAsync(x => x.PersonDocument == document);
             return response.ToEnumerable();  
         }
         

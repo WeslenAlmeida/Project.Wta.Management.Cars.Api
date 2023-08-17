@@ -1,13 +1,10 @@
-using MediatR;
-
-namespace Project.Wta.Management.Cars.Domain.Commands.v1.CreateCars
+namespace Project.Wta.Management.Cars.Domain.Queries.v1.GetCarByPersonDocument
 {
-    public class CreateCarCommand : IRequest<Unit>
+    public class GetCarByPersonDocumentQueryResponse
     {
         public string? Model { get; set; }
         public string? Manufacturer  { get; set; }
         public int Km { get; set; }
         public string? LisensePlate { get; set; }
-        public string? PersonDocument { get; set; }
     }
 }
