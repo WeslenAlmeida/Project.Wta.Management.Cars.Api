@@ -21,7 +21,6 @@ namespace Domain.Queries.v1.GetPerson.GetPersonByDocument
         public async Task<GetPersonByDocumentQueryResponse> Handle(GetPersonByDocumentQuery request, CancellationToken cancellationToken)
         {
             var person = await _personRepository.GetPersonByDocument(request.Document!);
-
             var cars = await _carRepository.GetCarByPersonDocument(person.Document!);
 
             return new GetPersonByDocumentQueryResponse(person.Name, person.Document, person.Phone,
