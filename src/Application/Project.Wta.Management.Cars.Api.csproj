@@ -16,7 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Domain\Project.Wta.Management.Cars.Domain.csproj" />
-    <ProjectReference Include="..\Infrastructure.Data\Project.Wta.Management.Cars.Infrastucture.Data.csproj" />
+    <ProjectReference Include="..\Infrastructure.Data\Project.Wta.Management.Cars.Infrastructure.Data.csproj" />
   </ItemGroup>
 
 </Project>

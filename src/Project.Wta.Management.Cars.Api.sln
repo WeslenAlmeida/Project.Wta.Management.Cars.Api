@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Wta.Management.Cars
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Wta.Management.Cars.Domain", "Domain\Project.Wta.Management.Cars.Domain.csproj", "{ABD53FC0-47A2-4F2B-B9F2-0FECD5E0BDFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Wta.Management.Cars.Infrastucture.Data", "Infrastructure.Data\Project.Wta.Management.Cars.Infrastucture.Data.csproj", "{E9E9D88D-D997-4A6F-BD20-F3DE5EEF6FF6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Wta.Management.Cars.Infrastructure.Data", "Infrastructure.Data\Project.Wta.Management.Cars.Infrastructure.Data.csproj", "{E9E9D88D-D997-4A6F-BD20-F3DE5EEF6FF6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Wta.Management.Cars.CrossCutting.Configuration", "CrossCutting.Configuration\Project.Wta.Management.Cars.CrossCutting.Configuration.csproj", "{02D4FB25-06EB-423F-96E0-7528602DA9F3}"
 EndProject

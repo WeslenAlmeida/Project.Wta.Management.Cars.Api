@@ -1527,19 +1527,19 @@
     ]
   },
   "packageFolders": {
-    "/home/weslen/.nuget/packages/": {}
+    "/root/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/workspace/Project.Wta.Management.Cars.Api/src/Infrastructure.Data/Project.Wta.Management.Cars.Infrastucture.Data.csproj",
-      "projectName": "Project.Wta.Management.Cars.Infrastucture.Data",
-      "projectPath": "/home/workspace/Project.Wta.Management.Cars.Api/src/Infrastructure.Data/Project.Wta.Management.Cars.Infrastucture.Data.csproj",
-      "packagesPath": "/home/weslen/.nuget/packages/",
+      "projectUniqueName": "/home/workspace/Project.Wta.Management.Cars.Api/src/Infrastructure.Data/Project.Wta.Management.Cars.Infrastructure.Data.csproj",
+      "projectName": "Project.Wta.Management.Cars.Infrastructure.Data",
+      "projectPath": "/home/workspace/Project.Wta.Management.Cars.Api/src/Infrastructure.Data/Project.Wta.Management.Cars.Infrastructure.Data.csproj",
+      "packagesPath": "/root/.nuget/packages/",
       "outputPath": "/home/workspace/Project.Wta.Management.Cars.Api/src/Infrastructure.Data/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/weslen/.nuget/NuGet/NuGet.Config"
+        "/root/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"

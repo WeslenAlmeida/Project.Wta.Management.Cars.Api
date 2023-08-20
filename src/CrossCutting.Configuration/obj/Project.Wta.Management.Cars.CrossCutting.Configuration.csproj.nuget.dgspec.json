@@ -10,11 +10,11 @@
         "projectUniqueName": "/home/workspace/Project.Wta.Management.Cars.Api/src/CrossCutting.Configuration/Project.Wta.Management.Cars.CrossCutting.Configuration.csproj",
         "projectName": "Project.Wta.Management.Cars.CrossCutting.Configuration",
         "projectPath": "/home/workspace/Project.Wta.Management.Cars.Api/src/CrossCutting.Configuration/Project.Wta.Management.Cars.CrossCutting.Configuration.csproj",
-        "packagesPath": "/home/weslen/.nuget/packages/",
+        "packagesPath": "/root/.nuget/packages/",
         "outputPath": "/home/workspace/Project.Wta.Management.Cars.Api/src/CrossCutting.Configuration/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/weslen/.nuget/NuGet/NuGet.Config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"

@@ -751,7 +751,7 @@
           "bin/placeholder/Project.Wta.Management.Cars.Domain.dll": {}
         }
       },
-      "Project.Wta.Management.Cars.Infrastucture.Data/1.0.0": {
+      "Project.Wta.Management.Cars.Infrastructure.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
@@ -760,10 +760,10 @@
           "Project.Wta.Management.Cars.Domain": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Project.Wta.Management.Cars.Infrastucture.Data.dll": {}
+          "bin/placeholder/Project.Wta.Management.Cars.Infrastructure.Data.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Project.Wta.Management.Cars.Infrastucture.Data.dll": {}
+          "bin/placeholder/Project.Wta.Management.Cars.Infrastructure.Data.dll": {}
         }
       }
     }
@@ -2125,10 +2125,10 @@
       "path": "../Domain/Project.Wta.Management.Cars.Domain.csproj",
       "msbuildProject": "../Domain/Project.Wta.Management.Cars.Domain.csproj"
     },
-    "Project.Wta.Management.Cars.Infrastucture.Data/1.0.0": {
+    "Project.Wta.Management.Cars.Infrastructure.Data/1.0.0": {
       "type": "project",
-      "path": "../Infrastructure.Data/Project.Wta.Management.Cars.Infrastucture.Data.csproj",
-      "msbuildProject": "../Infrastructure.Data/Project.Wta.Management.Cars.Infrastucture.Data.csproj"
+      "path": "../Infrastructure.Data/Project.Wta.Management.Cars.Infrastructure.Data.csproj",
+      "msbuildProject": "../Infrastructure.Data/Project.Wta.Management.Cars.Infrastructure.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2138,12 +2138,12 @@
       "MediatR.Extensions.Microsoft.DependencyInjection >= 11.1.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.9",
       "Project.Wta.Management.Cars.Domain >= 1.0.0",
-      "Project.Wta.Management.Cars.Infrastucture.Data >= 1.0.0",
+      "Project.Wta.Management.Cars.Infrastructure.Data >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
   "packageFolders": {
-    "/home/weslen/.nuget/packages/": {}
+    "/root/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
@@ -2151,11 +2151,11 @@
       "projectUniqueName": "/home/workspace/Project.Wta.Management.Cars.Api/src/Application/Project.Wta.Management.Cars.Api.csproj",
       "projectName": "Project.Wta.Management.Cars.Api",
       "projectPath": "/home/workspace/Project.Wta.Management.Cars.Api/src/Application/Project.Wta.Management.Cars.Api.csproj",
-      "packagesPath": "/home/weslen/.nuget/packages/",
+      "packagesPath": "/root/.nuget/packages/",
       "outputPath": "/home/workspace/Project.Wta.Management.Cars.Api/src/Application/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/weslen/.nuget/NuGet/NuGet.Config"
+        "/root/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -2170,8 +2170,8 @@
             "/home/workspace/Project.Wta.Management.Cars.Api/src/Domain/Project.Wta.Management.Cars.Domain.csproj": {
               "projectPath": "/home/workspace/Project.Wta.Management.Cars.Api/src/Domain/Project.Wta.Management.Cars.Domain.csproj"
             },
-            "/home/workspace/Project.Wta.Management.Cars.Api/src/Infrastructure.Data/Project.Wta.Management.Cars.Infrastucture.Data.csproj": {
-              "projectPath": "/home/workspace/Project.Wta.Management.Cars.Api/src/Infrastructure.Data/Project.Wta.Management.Cars.Infrastucture.Data.csproj"
+            "/home/workspace/Project.Wta.Management.Cars.Api/src/Infrastructure.Data/Project.Wta.Management.Cars.Infrastructure.Data.csproj": {
+              "projectPath": "/home/workspace/Project.Wta.Management.Cars.Api/src/Infrastructure.Data/Project.Wta.Management.Cars.Infrastructure.Data.csproj"
             }
           }
         }
