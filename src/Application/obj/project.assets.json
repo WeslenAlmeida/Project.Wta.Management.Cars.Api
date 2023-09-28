@@ -2143,7 +2143,7 @@
     ]
   },
   "packageFolders": {
-    "/root/.nuget/packages/": {}
+    "/home/weslen/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
@@ -2151,11 +2151,11 @@
       "projectUniqueName": "/home/workspace/Project.Wta.Management.Cars.Api/src/Application/Project.Wta.Management.Cars.Api.csproj",
       "projectName": "Project.Wta.Management.Cars.Api",
       "projectPath": "/home/workspace/Project.Wta.Management.Cars.Api/src/Application/Project.Wta.Management.Cars.Api.csproj",
-      "packagesPath": "/root/.nuget/packages/",
+      "packagesPath": "/home/weslen/.nuget/packages/",
       "outputPath": "/home/workspace/Project.Wta.Management.Cars.Api/src/Application/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/root/.nuget/NuGet/NuGet.Config"
+        "/home/weslen/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"

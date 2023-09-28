@@ -1,0 +1,60 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: project-cars-svc
+  labels: 
+    run: project-cars
+spec:
+  selector:
+    app: project-cars
+  type: LoadBalancer
+  externalIPs:
+  - 192.168.58.2
+  ports:
+  - port: 80
+    targetPort: 80
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: project-cars
+spec:
+  selector:
+    matchLabels:
+      app: project-cars
+  template:
+    metadata:
+      labels:
+        app: project-cars
+    spec:
+      containers:
+      - name: project-cars
+        image: weslenalmeida/project-cars:dev
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 80
+        env:
+          - name: MongoSettings__DatabaseName
+            value: "WtaManagementCars"
+          - name: MongoSettings__ConnectionString
+            value: "mongodb://localhost:27017"  
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name:  default 
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: project-cars-igs
+spec:
+  defaultBackend:
+    service:
+      name: project-cars-svc
+      port:
+        number: 80         
+
